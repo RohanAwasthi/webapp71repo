@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "webapp71"
+  labels:
+    system: web-apps
+  links:
+    - url: https://github.com/RohanAwasthi/webapp71repo
+      title: "webapp71"
+      icon: code
+  tags:
+    - java
+    - azure
+    - applicationtype-webapplication
+  annotations:
+    jenkins.io/github-folder: 'apache-web-app/azure-terrform-job'
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug:  RohanAwasthi/webapp71repo
+    backstage.io/linguist: https://github.com/RohanAwasthi/webapp71repo
+    azure.com/tag-selector: pid/p44
+spec:
+  type: service
+  lifecycle: development
+  system: azurecloud
+  owner: parth.bhargava
